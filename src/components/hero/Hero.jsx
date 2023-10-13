@@ -8,7 +8,7 @@ import { FaFacebook, FaLinkedinIn } from 'react-icons/fa';
 import { FiDownload } from 'react-icons/fi';
 import { FaPlay } from 'react-icons/fa';
 import { TypeAnimation } from 'react-type-animation';
-import chirag_Resume_[p] from '../../assets/chirag_Resume_[p].pdf';
+import chiragResume from '../../assets/chiragResume.pdf';
 import fi from '../../assets/fi.png';
 
 const Hero = () => {
@@ -52,7 +52,7 @@ const Hero = () => {
               <span> Hire Me</span>
             </a>
             <a
-              href={chirag_Resume_[p]}
+              href={chiragResume}
               className="flex items-center gap-2 border- text-[1rem] bg-white border-black px-7 py-2 sm:px-6 rounded-lg font-bold  hover:text-yellow-500"
               download
             >
